@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(211, 210, 209);
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            border:5px solid gray;
+            margin: 10px;
+            padding: 5px;
+           
+        }
+        nav{
+            text-align: center;
+            background-color: rgb(97, 94, 94);
+            box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.514);
+           
+            
+        }
+        nav > a{
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+           
+
+        }
+        nav> a:hover{
+            text-decoration: underline;
+            background-color: gray;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            border: 5px solid gray;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 20px 30px 40px;
+            box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.418);
+        }
+        article{
+            background-color: rgb(182, 177, 177);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: lightgrey;
+            margin: 5px;
+            border: 3px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0;
+        }
+        footer > p{
+            padding: 2px;
+        }
+        div#bola{
+            background-color: black;
+            margin: 10px;
+            width: 80px;
+            height: 50px;
+            border-radius: 50px;
+            margin: auto;
+        }
+        div#bola:active{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre po Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda dicta accusantium eius temporibus, nostrum laudantium quo laboriosam hic omnis deleniti nobis repudiandae quas possimus voluptatibus rem quibusdam non. Corrupti!</p>
+                <aside>
+                    <p>Artigo escrito por José João</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Leon@ardo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

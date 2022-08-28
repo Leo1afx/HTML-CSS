@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        @font-face{
+            font-family: "caviar";
+            src: url("fonte/CaviarDreams.ttf");
+            format: ("truetype");
+            font-weight: bold;
+            font-style:  normal;
+        }
+
+        body{
+            background-color: rgb(8, 88, 88);
+        }
+        p{
+            font-family: "caviar";
+        }
+        div#d1{
+            background-color: rgba(0, 0, 255, 0.459);
+            border: 2px solid black;
+            width: 70px;
+            height: 70px;
+        }
+
+        div#d1:hover {
+            background-color:#f30909;
+        }
+
+        div#d2 > p{
+            display: none;
+        }
+        div#d2:hover > p{
+            display:block;
+        }
+       div#d2:hover {
+        color: aqua;
+       }
+    </style>
+</head>
+<body>
+    <h1>Exercicio exemplo</h1>
+    <h2>Texto 1</h2>
+    <div id="d1">
+    </div>
+
+    <div id="d2">
+        Texto some
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, temporibus eaque. Eligendi optio velit ex eveniet beatae? Quaerat, soluta. Quia molestias facere optio sit commodi, quibusdam culpa dolore officia tenetur.</p>
+
+</div>
+</body>
+</html>

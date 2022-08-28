@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        a{
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+                   }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: " [Link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" href="https://github.com/gustavoguanabara">Repositório Github</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Canal do Youtube</a></li>
+        <li> <a targert="_blank" href="https://www.cursoemvideo.com/">Site do Cursoemvídeo</a></li>
+    </ul>
+</body>
+</html>

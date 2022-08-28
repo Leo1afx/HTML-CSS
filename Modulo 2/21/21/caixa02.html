@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags-tags de agrupamento</title>
+    <style>
+
+        body{
+            background-color: rgb(122, 122, 120);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0px;
+            padding: 1px;
+        }
+        nav#sec{
+            text-align: center;
+            padding: 2px;
+            background-color: rgb(88, 88, 88);
+            border:2px solid white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+            /* inset -borda interna */
+        }
+        nav > a{
+            
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+            header {
+                background-color:lightgrey;
+                padding: 10px;
+                margin: 10px;
+                border: 2px solid white;
+            }
+            article{
+                background-color: white;
+                padding: 5px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+            }
+            article > aside{
+                background-color: gray;
+            }
+           
+
+            main{
+
+                    background-color: lightgrey;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 7px;
+                    padding: 8px;
+                    border: 2px solid white;
+                    padding: 10px;
+                    margin: 10px;
+            }
+            footer{
+                background-color: lightgrey;
+                text-align: center;
+                padding: 4px;
+                margin: 10px;
+                border: 2px solid white;
+
+            }
+            footer > p{
+                margin: 0px;
+            }
+
+           article{
+            border-radius: 10px;
+           }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav id="sec">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <nav >
+                <a href="#">Esportes</a>
+                <a href="#">Política</a> 
+                <a href="#">Tecnologia</a>
+            </nav>
+        </section>
+        <section id="noticias">
+            
+        </section>
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate in, ducimus at iure magnam quas quidem minus eum possimus cumque quam necessitatibus magni consequuntur et porro, minima ab natus accusamus.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <!-- <article>
+
+            </article> -->
+        </section>
+
+        <section>
+            
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Leon@rdo</p>
+    </footer>
+</body>
+</html>

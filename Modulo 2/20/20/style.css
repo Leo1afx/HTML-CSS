@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: "caviar";
+    src: url("fonte/CaviarDreams.ttf");
+    format: ("truetype");
+    font-weight: bold;
+    font-style:  normal;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+
+}
+p{
+    font-family: "caviar";
+}
+
+div#rx > p{
+    display: none;
+}
+
+div#rx:hover > p{
+    display: block;
+    color:red;
+    font-weight: bolder;
+    background-color: rgb(47, 14, 197);
+    font-size: 50px;
+    
+}
+div #xp{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+
+div#xp:active > p{
+    display:block;
+}
+div#cd{
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+}
+div#fg{
+    display: none;
+}
+
+div#cd:active > div#fg{
+    display:block;
+}

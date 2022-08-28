@@ -1,0 +1,19 @@
+
+
+body{
+
+    background-color: antiquewhite;
+    color: rgb(8, 107, 107);
+}
+
+
+p{
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    text-decoration: underline;
+    color: black;
+}

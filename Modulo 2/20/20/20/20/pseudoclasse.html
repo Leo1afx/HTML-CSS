@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: beige;
+        }
+        #inicial{
+            color:blue
+        }
+        .segundo{
+            color: lightblue
+        }
+        
+        
+        div:hover > p{
+            display: block;
+            text-decoration:underline;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 165, 0);
+        }
+        div > p{
+            display: none;
+            
+        }
+
+        a::after{
+            content: " [link]";
+        }
+
+        a:hover {
+            color:rgb(253, 19, 11);
+        }
+        div > p{
+            font-weight: bolder;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro texto.</h1>
+
+<h2 id="inicial">Texto 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore exercitationem non amet corporis, iste in fugiat voluptates quas, molestiae dignissimos nisi repellendus ipsum tenetur consectetur harum suscipit eos accusantium.</p>
+<h2 class="segundo">texto 2</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus alias, doloribus molestiae minima saepe laboriosam, voluptate quisquam fuga dolorum nulla quos odio! Alias dolore possimus voluptatibus ullam veniam! Pariatur, distinctio.</p>
+<h2 class="segundo">Texto 3</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, dignissimos natus. Nulla explicabo esse tempore doloribus quis numquam ullam molestiae illum fugiat vero, vitae laboriosam similique eveniet minima, dolor voluptates.</p>
+
+
+
+<div class="zero">
+<ul>
+    <li><a target="_blank" href="https://www.facebook.com/leonardo.miranda.7545/">Facebook</a></li>
+    <li><a target="_blank" href="https://www.instagram.com/leo_miranda_fx/?hl=pt-br">Instagram</a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/in/leonardo-miranda-2137a371/">Linkedin</a></li>
+</ul>
+
+</div>
+<div>
+    Teste de Hover
+    <p>Teste de frase com div.</p>
+</div>
+
+</body>
+</html>

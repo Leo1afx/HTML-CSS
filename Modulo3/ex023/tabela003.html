@@ -7,22 +7,23 @@
     <title>Mesclagem de células</title>
     <style>
         body{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         table{
             border-collapse: collapse;
-            border: 1px solid black;
-            padding: 2px;
+            width: 300px;
+            
+            
         }
         td{
-            padding: 3px;
+            padding: 10px;
             border: 1px solid black;
+            text-align: center;
+
+            
         }
-        TR{
-            padding: 3px;
-            border: 1px solid black;
-        }
+        
 
 
     </style>
@@ -30,53 +31,32 @@
 <body>
     <h1>Mesclagem de células</h1>
     <table>
-            <THead>
-                <TD>1</TD>
-                <TD>2</TD>
-                <TD>3</TD>
-                <TD>4</TD>
-                <TD>5</TD>
-                <TD>6</TD>
-                <TD>7</TD>
-            </THead>
+        <tr>
+            <td>A</td>
+            <td rowspan="2">B</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            
+            <td>F</td>
+                                
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
 
-            <Tbody>
-                <tr>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
-                    <td>F</td>
-                    <td>G</td>
-                    <td>H</td>
-                </tr>
-                <tr>
-                    <td>B</td>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
-                    <td>F</td>
-                    <td>G</td>
-                    
-                </tr>
-                <tr>
-                    <td>C</td>
-                </tr>
-                <tr>
-                    <td>D</td>
-                </tr>
-                <tr>
-                    <td>E</td>
-                </tr>
-                <tr>
-                    <td>F</td>
-                </tr>
-                <tr>
-                    <td>G</td>
-                </tr>
+        </tr>
+        <TR>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>  
 
-            </Tbody>
+        </TR>
+
+                
+
+            
 
     </table>
 </body>

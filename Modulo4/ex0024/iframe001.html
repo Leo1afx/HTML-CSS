@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de iframe</title>
+
+    <style>
+        iframe{
+            
+            border: 2px dashed black;
+        }
+
+        .if1{
+            width: 400px;
+            height: 400px;
+        }
+
+        if2{
+            width: 600px;
+            height: 300px;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o site do 
+        <!-- Tamanho padrão do iframe 300x150   width 300 -- height 150 -->
+        <iframe class="if1" src="https://www.omelete.com.br/" frameborder="0" height="300" width="500">
+
+        </iframe>
+
+        para aprender a programar</p>
+
+        <p>O repositório do Guanabara
+            <iframe class="if2" src="https://gustavoguanabara.github.io/" frameborder="0" height="400" width="800"></iframe>
+             também é muito bom.</p>
+
+</body>
+</html>

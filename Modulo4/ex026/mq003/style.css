@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* Declarações gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px gray;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* Declarações retrato */
+
+@media screen and (orientation: portrait) {
+    body{
+background-image: url(../mq003/imagens/cev-portrait.jpg);
+background-position: center bottom;
+}
+
+}
+    
+/* Declarações paisagem */
+
+@media screen and (orientation: landscape){
+    body{
+background-image: url(../mq002/imagens/cev-landscape.jpg);
+background-position: left bottom;
+
+}   
+} 
+    

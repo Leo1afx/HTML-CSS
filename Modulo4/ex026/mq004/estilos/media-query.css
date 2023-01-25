@@ -9,7 +9,7 @@ agosto 2022
 Pequenas telas: até 600px
 Celular:  de 600px até 768px
 Tablet: 768px até 992px
-Desktop: 992 px até 1200px
+Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 
 */
@@ -19,7 +19,8 @@ Grandes telas: acima de 1200px
     *{
         font-family: 'Courier New', Courier, monospace;
     }
-   body{background-image: url(../imagens/back-print.jpg);  /* desnecessário */
+   body{
+      background-image: url(../imagens/back-print.jpg);  /* desnecessário */
       
    }
 

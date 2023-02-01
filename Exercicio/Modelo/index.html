@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materias de estudo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Curso em vídeo</h1>
+        <p>Curso de HTML e CSS</p>
+    </header>
+    
+    
+    <span id="burguer" class="material-icons"  onclick="clickMenu()">menu</span>
+
+    <nav id="itens">
+        
+        <ul>
+            <li><a class ="tit" href="index.html">Introdução</a></li>
+            <li><a href="mod1.html">Módulo 1</a></li>
+            <li><a href="mod2.html">Módulo 2</a></li>
+            <li><a href="mod3.html">Módulo 3</a></li>
+            <li><a href="mod4.html">Módulo 4</a></li>
+            <li><a href="form.html">Cadastro</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Introdução</h2>
+
+        <p>Lista de assuntos tratados no curso de HTML 5 e CSS3 do Curso em vídeo com Gustavo Guanabara.
+            O curso está dividido  5 Módulos contendo vários assuntos divididos em capítulos.
+        </p>
+
+        <div>
+            <img src="imagens/html-css-logo2.png" alt="logo">
+
+        </div>
+
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Curso em vídeo</h1>
+        <p>Curso de HTML e CSS</p>
+    </header>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <nav id="itens">
+        <ul>
+            <li><a href="index.html">Introdução</a></li>
+            <li><a href="mod1.html">Módulo 1</a></li>
+            <li><a href="mod2.html">Módulo 2</a></li>
+            <li><a href="mod3.html">Módulo 3</a></li>
+            <li><a href="mod4.html">Módulo 4</a></li>
+            <li><a class ="tit" href="form.html">Cadastro</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Cadastro</h2>
+
+        <form action="cadastro.php" method="post">
+
+            <div>
+
+                <h3 class="tit2">Preencha os dados</h3>
+                
+                <p><label for="inome">Nome completo:</label>
+                <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" >
+                </p>
+                <p>
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail">
+                </p>
+
+                <p>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" required>
+                </p>
+
+
+
+                
+                    
+                    <input class="botao" type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                
+            </div>
+        </form>
+
+
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
+</body>
+</html>

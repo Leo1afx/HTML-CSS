@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Curso em vídeo</h1>
+        <p>Curso de HTML e CSS</p>
+    </header>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <nav id="itens">
+        <ul>
+            <li><a href="index.html">Introdução</a></li>
+            <li><a class ="tit" href="#">Módulo 1</a></li>
+            <li><a href="mod2.html">Módulo 2</a></li>
+            <li><a href="mod3.html">Módulo 3</a></li>
+            <li><a href="mod4.html">Módulo 4</a></li>
+            <li><a href="form.html">Cadastro</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Módulo 1</h2>
+        <hr>
+        <ol>
+            <h3>CAPÍTULO 1</h3>
+                <ul>
+                    <li>Informações gerais</li>
+                    <li>Bibliografia recomendada</li>
+                    <li>De onde vem a internet</li>
+                    
+                </ul>
+            <h3>CAPÍTULO 2</h3>
+                <ul>
+                    <li>Como a internet funciona</li>
+                    <li>O que é domínio e hospedagem</li>
+                                       
+                </ul>
+            <h3>CAPÍTULO 3</h3>
+                <ul>
+                    <li>Diferença entre HTML, CSS e Javascript</li>
+                    <li>Front end, Back end Full Stack</li>
+
+                </ul>
+            <h3>CAPÍTULO 4</h3>
+                <ul>
+                    <li> Vídeo 1 - Instalando ferramentas</li>
+                    <ol>
+                        <li>Google Chrome</li>
+                        <li>Visual Studio Code</li>
+                    </ol>
+                    <li>Vídeo 2</li>
+                    <ol>
+                        <li>Primeiro código HTML</li>
+                        <li>Parágrafos e quebras de linha</li>
+                    </ol>
+                </ul>
+            <h3>CAPÍTULO 5</h3>
+                <ul>
+                    <li>Símbolos especiais - Emojis</li>
+                    
+                </ul>
+            <h3>CAPÍTULO 6</h3>
+                <ul>
+                    <li>Direitos de imagem -</li>
+                    <ol>
+                        <li>Copyright e Creative commons</li>
+                    </ol>
+                    <li>Formatos de imagem</li>
+                    <li>Tamanho da imagem</li>
+                    <li>Inserindo imagem em HTML5</li>
+                    <li>Ícone de favoritos</li>
+                </ul>
+            <h3>CAPÍTULO 7</h3>
+                <ul>
+                    <li>Hierarquia de títulos</li>
+                </ul>
+            <h3>CAPÍTULO 8</h3>
+                <ul>
+                    <li>Semantica em HTML5</li>
+                    <li>Negrito e itálico</li>
+                    <li>Formatações adicionais em HTML 5</li>
+                    <li>Citações e códigos</li>
+                </ul>
+            <h3>CAPÍTULO 9</h3>
+                <ul>
+                    <li>Lista em HTML5</li>
+                    <li>Listas Mistas e de definição</li>
+                </ul>
+            <h3>CAPÍTULO 10</h3>
+                <ul>
+                    <li>Links e âncoras em HTML5</li>
+                    <li>Links para download</li>
+                    <li>Desafios propostos</li>
+                </ul>
+            <h3>CAPÍTULO 11</h3>
+                <ul>
+                    <li>Imagens que se adaptam sozinhas</li>
+                    <li>Colocando áudio no seu site</li>
+                    <li>Formatos de vídeo para seu site</li>
+                    <li>Vídeos em hospedagem própria</li>
+                    <li>Incorporação de vídeos externos</li>
+                    <li>Desafio:Site com vídeos</li>
+                </ul>
+            <h3>CAPÍTULO 12</h3>
+                <ul>
+                    <li>Estilos inline</li>
+                    <li>Estilos CSS internos</li>
+                    <li>Estilos CSS Externos</li>
+                </ul>
+        </ol>
+        
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
+</body>
+</html>

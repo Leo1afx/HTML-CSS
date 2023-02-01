@@ -143,7 +143,7 @@ main li{
 }
 
 main > ol{
-    columns: 2;
+    /* columns: ; */
     white-space: nowrap;
     font-size: 0.65em;
 

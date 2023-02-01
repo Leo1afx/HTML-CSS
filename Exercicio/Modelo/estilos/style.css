@@ -169,7 +169,7 @@ main form {
 
 
 form > div {
-    /* width: 250px; */
+    width: 90vw;
     /* height: 300px; */
     border: 1px solid lightgray;
     margin: auto;

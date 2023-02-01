@@ -163,12 +163,9 @@ h3{
     margin-top: 10px;
 }
 
-.form2{
-    width: 90vw;
-}
 
 form > div {
-    width: 90vw;
+    width: 250px;
     /* height: 300px; */
     border: 1px solid lightgray;
     margin: auto;

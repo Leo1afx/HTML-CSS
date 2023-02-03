@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="estilos/media-query.css">
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Curso em vídeo</h1>
         <p>Curso de HTML e CSS</p>
@@ -32,7 +32,7 @@
             <li><a href="form.html">Cadastro</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="main1">
         <h2>Introdução</h2>
 
         <p>Lista de assuntos tratados no curso de HTML 5 e CSS3 do Curso em vídeo com Gustavo Guanabara.
@@ -47,6 +47,15 @@
     </main>
 
     <script>
+
+        function mudouTamanho() {
+            if(window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'

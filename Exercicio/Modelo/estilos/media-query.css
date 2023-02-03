@@ -11,4 +11,38 @@
     nav > ul >li{
         display: inline-block;
     }
+
+     main {
+        width: 768px;
+    } 
+    
+    main > div > #img1{
+        width: 500px;
+    }
+
+    /* form > div {
+        width: 90vw;
+    }
+
+    /* div > #img1{
+        width: 90vw;
+    } */
+
+    .form2{
+        width: 500px;
+        margin: auto;
+    }
+
+  main > form > div.form1{
+        
+        width: 500px;
+        
+        
+        
+    } 
+
+   /* .mn{
+    text-align: center;
+   }  */
+
 }

@@ -199,12 +199,14 @@ form > div > p{
 
 .botao{
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
-main > div > #img1{
+/* main > div > #img1{
     width: 90vw;
-}
+} */
 
-main > div > .form1{
+/* main > div > .form1{
     width: 90vw;
-}
+    
+}  */

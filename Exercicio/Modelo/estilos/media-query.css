@@ -45,4 +45,24 @@
     text-align: center;
    }  */
 
+   nav{
+    background-color: #06087c;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 3px solid transparent;
+
 }
+
+nav a:hover {
+    border-bottom: 3px solid orangered;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.tit{
+    border-bottom: 3px solid orangered;
+    color: white;
+}
+}
+

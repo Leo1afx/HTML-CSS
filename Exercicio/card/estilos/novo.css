@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+
+    /* body{
+        background-color: #f3eae3;
+
+    } */
+
+    main .img2{
+        display: none;
+    }
+
+    /* article{
+        position: ;
+    } */
+
+    main {
+        width: 600px;
+        height: 400px;
+     /* background-image: url(../imagens/image-product-desktop.jpg);    */
+     background-color: white;
+        
+    }
+ 
+    article{
+        padding-left: 320px;
+
+    }
+
+    main{
+        background: url('../imagens/image-product-desktop2.jpg');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-color: white;
+    } 
+
+    main > .imgd{
+        
+        width:300px;
+        height: 400px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+}

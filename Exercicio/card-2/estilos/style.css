@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sumana:wght@400;700&display=swap');
+
+:root{
+    --fonte-texto: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "median";
+    src: url("../fonte/MEDIAN30.TTF");
+    format: ("truetype");
+}
+
+body{
+    background-color: #0a0c1b;
+}
+
+main{
+    width: 300px;
+    height: 700px;
+    background-color: #1c1936;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.img1{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    font-family: "median";
+}
+
+.txt{
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+    font-family: var(--fonte-texto);
+    color: lightgrey;
+}
+
+
+
+ div{
+    text-align: center;
+    margin-top: 15px;
+} 
+
+div > p{
+    font-size: 1em;
+    font-family: var(--fonte-texto);
+    color: lightgrey;
+}
+
+h2{
+    color: white;
+    font-family: var(--fonte-texto);
+}
+
+ /* div{ 
+    display: inline-block;
+     margin: -8px;
+}  */

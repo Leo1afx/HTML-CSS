@@ -55,4 +55,8 @@
         padding-right: 5px;
     }
 
+
+        span{
+            text-decoration: underline;
+        }
 }    

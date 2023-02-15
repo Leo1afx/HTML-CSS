@@ -34,13 +34,19 @@ header{
     
 } 
 
+.tit2{
+    font-family: var(--fonte-texto);
+}
+
 .subt{
     margin-bottom: 10px;
+    font-family: var(--fonte-texto);
 }
 
 p{
     font-family: var(--fonte-texto);
     font-size: 1.2em;
+    color: blue;
 }
 
 .tx1{
@@ -59,7 +65,7 @@ div{
 
 .up{
     margin: auto;
-    width: 330px;
+    width: 300px;
     /* margin-top: 20px; */
 
 }
@@ -73,7 +79,7 @@ div{
 .fig1{
    
     
-    width: 300px;
+    width: 270px;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -84,7 +90,7 @@ div{
 
 .img1{
     padding-top: 50px;
-    padding-left: 240px;
+    padding-left: 200px;
     width: 50px;
     height: 50px;
     margin: 10px;

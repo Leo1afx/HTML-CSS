@@ -36,6 +36,7 @@ header{
 
 .tit2{
     font-family: var(--fonte-texto);
+    /* text-align: center; */
 }
 
 .subt{
@@ -73,7 +74,12 @@ div{
 
 
 .up p{
+    margin-top: 20px;
     font-size: 1em;
+    color: blueviolet;
+    text-align: center;
+    
+    
 }
 
 .fig1{

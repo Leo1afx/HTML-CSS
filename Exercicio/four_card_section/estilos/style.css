@@ -13,7 +13,7 @@
 
 
 body{
-    background-color: rgb(238, 236, 236);
+    background-color: white;
     
 
 }
@@ -33,9 +33,20 @@ header{
     /* margin-right: 0px; */
     
 } 
-
-.tit2{
+ .up .tit1{
     font-family: var(--fonte-texto);
+    font-size: 1.5em;
+    color: rgb(184, 182, 182);
+    line-height: 3px;
+    /* text-align: center; */
+}
+
+.up .tit2{
+    font-family: var(--fonte-texto);
+    font-size: 1.5em;
+    color: grey;
+    font-weight: bolder;
+    /* text-align: center; */
     /* text-align: center; */
 }
 
@@ -76,7 +87,7 @@ div{
 .up p{
     margin-top: 20px;
     font-size: 1em;
-    color: blueviolet;
+    color: rgb(184, 182, 182);
     text-align: center;
     
     

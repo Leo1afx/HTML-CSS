@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+
+    body{
+        width: 100%;
+    }
+    main div.dados{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* width: 100%; */
+    }
+
+    main .dados  {
+        display: flex;
+        align-items: center;
+    }
+
+    main .fig1, .fig4{
+        margin-top: -20px;
+    }
+
+    .up{
+        margin: auto;
+        width: 500px;
+        
+        /* margin-top: 20px; */
+    
+    }
+
+    .up p{
+        margin-top: 20px;
+        font-size: 1em;
+        color: rgb(184, 182, 182);
+        text-align: center;
+        margin-bottom: -10px;
+        
+        
+    }
+
+    .fig1{
+   
+    
+        width: 250px;
+        height: 140px;
+        background-color: white;
+        border-radius: 10px;
+        border-top: 4px solid rgb(68, 193, 231);
+        box-shadow: 2px 9px 18px 1px rgba(114, 113, 113, 0.582);
+        margin-bottom: 30px;
+        
+          
+    }
+
+
+    .fig2{
+        width: 250px;
+        height: 140px;
+        background-color: white;
+        border-radius: 10px;
+        border-top: 4px solid rgb(231, 68, 68);
+        box-shadow: 2px 9px 18px 1px rgba(114, 113, 113, 0.582);
+        margin-bottom: 30px;
+    }
+
+    .fig3{
+        width: 250px;
+        height: 140px;
+        background-color: white;
+        border-radius: 10px;
+        border-top: 4px solid rgb(219, 156, 20);
+        box-shadow: 2px 9px 18px 1px rgba(114, 113, 113, 0.582);
+        margin-bottom: 30px;
+    }
+    
+    
+    .fig4{
+        width: 250px;
+        height: 140px;
+        background-color: white;
+        border-radius: 10px;
+        border-top: 4px solid rgb(40, 101, 194);
+        box-shadow: 2px 9px 18px 1px rgba(114, 113, 113, 0.582);
+        margin-bottom: 30px;
+        
+    
+    }
+
+    .img1{
+        padding-top: 10px;
+        padding-left: 200px;
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --fonte-texto: 'Space Mono', monospace;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-texto);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+
+img{
+    width: 350px;
+}
+
+h1{
+    font-size: 2.5em;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.txt{
+    width: 310px;
+}
+
+button{
+    background-color: rgb(39, 39, 39);
+    border: none;
+    width: 130px;
+    height: 50px;
+}
+
+button p{
+    color: white;
+}

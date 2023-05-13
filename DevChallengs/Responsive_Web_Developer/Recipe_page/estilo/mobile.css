@@ -19,9 +19,9 @@ body{
 
 main{
     
-    width: 375px;
+    width: 100%;
     /* margin: 20px; */
-    padding-right: 0px;
+    
     background-color: rgb(124, 109, 91);
 }
 

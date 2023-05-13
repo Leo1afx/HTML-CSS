@@ -13,9 +13,9 @@
 
 main{
     width: 350px;
-    margin: 20px;
+    /* margin: 20px; */
     padding-right: 0px;
-    background-color: bisque;
+    background-color: rgb(224, 176, 117);
 }
 
 p{

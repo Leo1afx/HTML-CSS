@@ -11,6 +11,10 @@
     padding: 0px;
 }
 
+body{
+    margin: 0px;
+}
+
 main{
     width: 350px;
     /* margin: 20px; */

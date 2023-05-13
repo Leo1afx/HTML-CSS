@@ -13,10 +13,11 @@
 
 body{
     margin: 0px;
+
 }
 
 main{
-    width: 360px;
+    width: 375px;
     /* margin: 20px; */
     padding-right: 0px;
     background-color: rgb(124, 109, 91);

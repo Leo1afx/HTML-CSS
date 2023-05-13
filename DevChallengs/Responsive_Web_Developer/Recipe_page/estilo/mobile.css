@@ -14,11 +14,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
 main{
-    width: 100%;
-    /* width: 375px; */
+    
+    width: 375px;
     /* margin: 20px; */
     padding-right: 0px;
     background-color: rgb(124, 109, 91);

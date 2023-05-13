@@ -16,10 +16,10 @@ body{
 }
 
 main{
-    width: 350px;
+    width: 360px;
     /* margin: 20px; */
     padding-right: 0px;
-    background-color: rgb(224, 176, 117);
+    background-color: rgb(124, 109, 91);
 }
 
 p{

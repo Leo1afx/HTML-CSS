@@ -12,7 +12,7 @@
 }
 
 main{
-    width: 360px;
+    width: 350px;
     margin: 20px;
     padding-right: -40px;
     background-color: bisque;
@@ -43,9 +43,10 @@ h1{
 }
 
 .img1{
-    width: 345px;
+    width: 340px;
     height: 190px;
     margin-top: 20px;
+    margin-left: 5px;
 }
 
 img{

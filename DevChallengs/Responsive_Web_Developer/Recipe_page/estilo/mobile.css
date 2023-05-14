@@ -53,7 +53,7 @@ h1{
     width: 340px;
     height: 190px;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 img{
@@ -175,5 +175,10 @@ input{
 }
 
 .pt2{
-    width: 350px;
+    width: 345px;
+    margin-left: 10px;
+}
+
+.pt11{
+    margin-left: 10px;
 }

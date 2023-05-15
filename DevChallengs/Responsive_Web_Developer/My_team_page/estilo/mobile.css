@@ -18,7 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
-    width: 340px;
+    width: 320px;
     background-color: aquamarine;
 }
 

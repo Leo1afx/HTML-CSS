@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 30px;
+    
+}
+
+ .txtb1{
+    width: 200px;
+ }
+
+ .txtb2{
+    width: 280px;
+    margin-left: 60px;
+} 
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 520px;
+    
+}
+
+    .block_img{
+        display: flex;
+        flex-direction: row;
+        
+        width: 520px;
+        height: 650px;
+    }
+/* 
+    .img01{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .img02{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+
+    /* .imgb{
+        margin-right: 30px
+    } */
+
+
+    .imggriff, .imgsaba{
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    .imggriff{
+        margin-top: 130px;
+    }
+}

@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+@media screen and (min-width:768px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* align-content: center; */
+    }
+
+    .tela{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .bloco2{
+        margin-top: -40px;
+    }
+
+    .bloco1{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    .b1{
+        
+        font-size: 0.80em;
+    }
+
+    .form1{
+        margin-top: 25px;
+    }
+
+    .cemail{
+        /* background-image: url("../imagens/Bogo-D-Project-Envelope.32.png");
+        background-repeat: no-repeat; */
+        /* width: 50px; */
+        height: 40px;
+        border-radius: 5px;
+        width:370px
+    }
+    
+    .cphone{
+        /* background-image: url("../imagens/outline_local_phone_black_24dp.png");
+        background-repeat: no-repeat; */
+        /* width: 50px; */
+        height: 40px;
+        border-radius: 5px;
+        width:370px
+    }
+    
+    .cname{
+        height: 40px;
+        border-radius: 5px;
+        width:370px
+    }
+    
+    .caddress{
+        height: 40px;
+        border-radius: 5px;
+        width:370px
+    
+    }
+    
+    .ccity{
+        height: 40px;
+        border-radius: 5px;
+        width:370px
+    }
+    
+    .ccountry{
+        height: 40px;
+        border-radius: 5px;
+        width: 175px;
+    }
+    
+    .ccode{
+        height: 40px;
+        border-radius: 5px;
+        width: 175px;
+        margin-left: 20px;
+    }
+
+    button{
+        margin-left: 30px;
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin-right: 0px;
+        margin-top: 20px;
+        width: 370px;
+        
+    }
+
+    .postal{
+        margin-left: 20px;
+    }
+
+    label{
+        font-size: 0.80em;
+    }
+}

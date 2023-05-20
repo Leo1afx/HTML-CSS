@@ -143,6 +143,32 @@ button{
     
 }
 
+.botaof{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 340px;
+
+    font-size: 1.2em;
+    color: white;
+    background-color: rgb(236, 90, 5);
+    border: none;
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.botao1{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 0px;
+    margin-top: 20px;
+    width: 340px;
+}
+
 .botao p{
     font-size: 1.2em;
 }

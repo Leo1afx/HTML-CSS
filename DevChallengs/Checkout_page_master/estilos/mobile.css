@@ -153,7 +153,7 @@ button{
     /* width: 50px; */
     height: 40px;
     border-radius: 5px;
-    
+    width:340px
 }
 
 .cphone{
@@ -162,23 +162,26 @@ button{
     /* width: 50px; */
     height: 40px;
     border-radius: 5px;
+    width:340px
 }
 
 .cname{
     height: 40px;
     border-radius: 5px;
+    width:340px
 }
 
 .caddress{
     height: 40px;
     border-radius: 5px;
+    width:340px
 
 }
 
 .ccity{
     height: 40px;
     border-radius: 5px;
-
+    width:340px
 }
 
 .ccountry{

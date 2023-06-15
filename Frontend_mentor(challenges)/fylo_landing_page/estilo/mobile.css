@@ -10,7 +10,7 @@
 }
 
 body{
-    width: 375px;
+    width: 355px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,9 +131,9 @@ h1{
     margin-left: 30px;
 }
 
-.card p{
+/* .card p{
     /* font-size: 15px; */
-}
+
 
 .cardtxt{
     text-align: justify;
@@ -166,5 +166,5 @@ span{
 
 .titulo{
     text-align: left;
-    font-size: ;
+    
 }

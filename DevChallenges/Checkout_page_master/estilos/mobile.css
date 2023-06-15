@@ -221,3 +221,7 @@ button{
     border-radius: 5px;
     width: 155px;
 }
+
+fieldset{
+    padding:10px;
+}

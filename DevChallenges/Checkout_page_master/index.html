@@ -54,53 +54,70 @@
             <section class="bloco2">
                 <div>
                     <h2>Contact information</h2>
-                    <form action="cadastro.php" width="330">
-                        <label for="email">E-mail:</label> <br>
-                        <i></i>
-                        <input class="cemail" type="text" name="email" id="email" size="44" placeholder="Enter your e-mail..." required>
-                    </form>
-                    <form action="cadastro.php" method="post">
-                        <label for="phone">Phone:</label> <br>
-                        <input class="cphone" type="text" name="phone" id="phone" size="44" placeholder="Enter your phone.." >
-                    </form>
-                </div>
-                <div>
-                    <h2>Shipping address</h2>
-                    <form action="cadastro.php" method="post">
-                        <label for="name">Full Name</label> <br>
-                        <input class="cname" type="text" name="name" id="name" size="44" placeholder="Your name.." minlength="5" autocomplete="name">
-                    </form>
-                    <form action="cadastro.php" method="post">
-                        <label for="address">Adress</label> <br>
-                        <input class="caddress" type="text" name="address" id="address" size="44" placeholder="Your address..">
-                    </form>  
-                    <form action="cadastro.php" method="post">
-                        <label for="city">City</label> <br>
-                        <input class="ccity" type="text" name="city" id="city" size="44" placeholder="Your city..">
-                    </form>
-                    <div class="duplo">
-                        <form action="cadastro.php" method="post">
-                            <label for="country">Country</label> <br>
-                            <select class="ccountry" name="country" id="country">
-                                <option value="">Arábia Saudita</option>
-                                <option value="">Argélia</option>
-                            </select>
+                    
+                        <form action="cadastro.php" method="post" width="330">
+                            <fieldset>
+                                <legend>Contact information</legend>
+                                <p>
+                                    <label for="email">E-mail:</label> <br>
+                                    <input class="cemail" type="email" name="email" id="email" required="required" size="44" placeholder="Enter your e-mail..." autocomplete="email">
+                                </p>
+                                
+                                <p>
+                                    <label for="phone">Phone:</label> <br>
+                                    <input class="cphone" type="text" name="phone" id="phone" size="44" placeholder="Enter your phone.." >
+                                </p>
+                            </fieldset>
+                                                
+                            
+                                            
+                             <h2>Shipping address</h2>
+                            <p>
+                                <label for="name">Full Name</label> <br>
+                                <input class="cname" type="text" name="name" id="name" size="44" placeholder="Your name.." minlength="5" autocomplete="name" required>
+                            </p>
+
+                            <p>
+                                <label for="address">Adress:</label> <br>
+                                <input class="caddress" type="text" name="address" id="address" size="44" placeholder="Your address.." >
+                            </p>
+
+                            <p>
+                                <label for="city">City:</label> <br>
+                                <input class="ccity" type="text" name="city" id="city" size="44" placeholder="Your city..">
+                            </p>
+                                                     
+                                               
+                            
+                            <div class="duplo">
+                            
+                                <p>
+                                    <label for="country">Country</label> <br>
+                                    <select class="ccountry" name="country" id="country">
+                                        <option value="">Arábia Saudita</option>
+                                        <option value="">Argélia</option>
+                                    </select>
+                                </p>
+                            
+                            
+                                <p>
+                                    <label class="postal" for="postal">Postal Code</label> <br>
+                                    <input class="ccode" type="text" name="postal" id="postal" placeholder="Your postal code.." minlength="5" maxlength="5">
+                                </p>
+                            
+                            </div>
+                            <label for=""></label>
+                            <input type="checkbox" name="" id=""> Save this information for next time <br>
+                            <div class="botao1">
+                                <input class="botaof" class="botaof" type="submit" value="Continue">
+                            </div>
                         </form>
-                        <form action="cadastro.php" method="post">
-                            <label class="postal" for="postal">Postal Code</label> <br>
-                            <input class="ccode" type="text" name="postal" id="postal" placeholder="Your postal code.." min="5" max="5">
-                        </form>
-                    </div>
-                    <form action="cadastro.php" method="post">
-                        <label for=""></label>
-                        <input type="checkbox" name="" id=""> Save this information for next time <br>
-                        <div class="botao1">
-                            <input class="botaof" class="botaof" type="submit" value="Continue">
-                        </div>
-                    </form>
                     
                     
+                    
                 </div>
+
+
             </section>
         </div>
     </main>

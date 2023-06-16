@@ -53,10 +53,10 @@ header > ul > li{
     margin-top: 30px;
 }
 
-.sect1{
+ .sect1{
     margin-left: 30px;
-    margin-right: 30px;
-}
+    
+} 
 
 .img1{
     width: 350px;
@@ -94,8 +94,11 @@ h1{
 }
 
 .imagem2{
-    width: 340px;
+    width: 330px;
+    height: 310px;
+    margin-bottom: 40px;
     margin-right: 0px;
+
 }
 
 /* .sect2{
@@ -107,6 +110,9 @@ h1{
     
 } */
 
+.sect2{
+    width: 330px;
+}
 
 
 .img2{

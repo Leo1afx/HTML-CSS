@@ -93,6 +93,11 @@ h1{
     
 }
 
+.imagem2{
+    width: 340px;
+    margin-right: 0px;
+}
+
 /* .sect2{
     background-image: url("../imagens/bg-curve-desktop.svg");
     background-repeat: no-repeat;

@@ -123,7 +123,7 @@ h1{
 }
 
 .card{
-    width: 350px;
+    width: 250px;
     height: 250px;
     background-color: lightpink;
     padding-left: 30px;
@@ -138,7 +138,7 @@ h1{
 
 .cardtxt{
     text-align: justify;
-    font-size: 15px;
+    font-size: 11px;
     line-height: 30px;
 }
 

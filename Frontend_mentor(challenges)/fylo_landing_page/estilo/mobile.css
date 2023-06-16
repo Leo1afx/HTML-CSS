@@ -93,21 +93,21 @@ h1{
     
 }
 
-.sect2{
+/* .sect2{
     background-image: url("../imagens/bg-curve-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 20px;
     
     
-}
+} */
 
 
 
 .img2{
     margin-top: 80px;
     width: 340px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .link2{

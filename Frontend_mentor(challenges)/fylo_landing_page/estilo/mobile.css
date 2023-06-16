@@ -97,7 +97,7 @@ h1{
     background-image: url("../imagens/bg-curve-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 30px;
+    margin-left: 20px;
     
     
 }
@@ -106,7 +106,7 @@ h1{
 
 .img2{
     margin-top: 80px;
-    width: 350px;
+    width: 340px;
     margin-left: 30px;
 }
 
@@ -124,12 +124,12 @@ h1{
 
 .card{
     width: 250px;
-    height: 250px;
+    height: 200px;
     background-color: lightpink;
     padding-left: 30px;
     padding-right: 20px;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 /* .card p{
@@ -139,7 +139,7 @@ h1{
 .cardtxt{
     text-align: justify;
     font-size: 11px;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 span{

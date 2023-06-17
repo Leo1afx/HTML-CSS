@@ -10,7 +10,7 @@
 }
 
 body{
-    width: 350px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,6 +23,9 @@ body{
 main{
     margin: auto;
     width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    
 }
 

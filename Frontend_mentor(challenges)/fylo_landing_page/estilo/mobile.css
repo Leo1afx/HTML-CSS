@@ -116,6 +116,10 @@ h1{
     width: 330px;
 }
 
+.sect2 > .bloco2, h1, p{
+    text-align: center;
+}
+
 
 .img2{
     margin-top: 80px;
@@ -136,6 +140,7 @@ h1{
 }
 
 .card{
+    /* text-align: center; */
     width: 250px;
     height: 200px;
     background-color: lightpink;

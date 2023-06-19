@@ -129,6 +129,7 @@ h1{
 
 .sect2 > .bloco2, h1, p{
     text-align: center;
+    
 }
 
 
@@ -287,6 +288,7 @@ footer{
    text-align: center;
     gap: 10px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
